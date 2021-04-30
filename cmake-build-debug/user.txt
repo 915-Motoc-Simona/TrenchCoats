@@ -1,0 +1,6 @@
+S Black 100 20 https://images.app.goo.gl/XLWj94A45iEFpfvv5
+M Black 100 15 https://images.app.goo.gl/XLWj94A45iEFpfvv5
+S Red 150 7 https://images.app.goo.gl/xduazNVVk5uAmukaA
+S Black 100 20 https://images.app.goo.gl/XLWj94A45iEFpfvv5
+M Black 100 15 https://images.app.goo.gl/XLWj94A45iEFpfvv5
+XL White 240 15 https://images.app.goo.gl/7Vkqw4w1VPkZRRHAA

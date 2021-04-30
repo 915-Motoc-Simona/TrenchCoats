@@ -1,0 +1,4 @@
+D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/CMakeFiles/a89-915-Motoc-Simona.dir
+D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
+D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/CMakeFiles/a89-915-Motoc-Simona_autogen.dir

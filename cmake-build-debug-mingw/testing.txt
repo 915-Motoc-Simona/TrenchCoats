@@ -1,0 +1,2 @@
+S,Blue,10,1,www.url.com
+M,Blue,100,0,www.url2.com

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="a89-915-Motoc-Simona"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Qt\;CMake Files\Qt\5.15.2\;CMake Files\Qt\5.15.2\mingw81_32\;CMake Files\Qt\5.15.2\mingw81_32\lib\;CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\;CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5\;CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Core\;CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Gui\;CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Widgets\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a89-915-Motoc-Simona">
+				<Option output="D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/a89-915-Motoc-Simona.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/a89-915-Motoc-Simona_autogen/include"/>
+					<Add directory="D:/info/a89-915-Motoc-Simona/Business"/>
+					<Add directory="D:/info/a89-915-Motoc-Simona/Database"/>
+					<Add directory="D:/info/a89-915-Motoc-Simona/DynamicVectorDir"/>
+					<Add directory="D:/info/a89-915-Motoc-Simona/Persistence"/>
+					<Add directory="D:/info/a89-915-Motoc-Simona/Testing"/>
+					<Add directory="D:/info/a89-915-Motoc-Simona/Presentation"/>
+					<Add directory="C:/Qt/5.15.2/mingw81_32/include"/>
+					<Add directory="C:/Qt/5.15.2/mingw81_32/include/QtCore"/>
+					<Add directory="C:/Qt/5.15.2/mingw81_32/./mkspecs/win32-g++"/>
+					<Add directory="C:/Qt/5.15.2/mingw81_32/include/QtGui"/>
+					<Add directory="C:/Qt/5.15.2/mingw81_32/include/QtANGLE"/>
+					<Add directory="C:/Qt/5.15.2/mingw81_32/include/QtWidgets"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 a89-915-Motoc-Simona"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a89-915-Motoc-Simona/fast">
+				<Option output="D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/a89-915-Motoc-Simona.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/a89-915-Motoc-Simona_autogen/include"/>
+					<Add directory="D:/info/a89-915-Motoc-Simona/Business"/>
+					<Add directory="D:/info/a89-915-Motoc-Simona/Database"/>
+					<Add directory="D:/info/a89-915-Motoc-Simona/DynamicVectorDir"/>
+					<Add directory="D:/info/a89-915-Motoc-Simona/Persistence"/>
+					<Add directory="D:/info/a89-915-Motoc-Simona/Testing"/>
+					<Add directory="D:/info/a89-915-Motoc-Simona/Presentation"/>
+					<Add directory="C:/Qt/5.15.2/mingw81_32/include"/>
+					<Add directory="C:/Qt/5.15.2/mingw81_32/include/QtCore"/>
+					<Add directory="C:/Qt/5.15.2/mingw81_32/./mkspecs/win32-g++"/>
+					<Add directory="C:/Qt/5.15.2/mingw81_32/include/QtGui"/>
+					<Add directory="C:/Qt/5.15.2/mingw81_32/include/QtANGLE"/>
+					<Add directory="C:/Qt/5.15.2/mingw81_32/include/QtWidgets"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 a89-915-Motoc-Simona/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a89-915-Motoc-Simona_autogen">
+				<Option working_dir="D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 a89-915-Motoc-Simona_autogen"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Business/AdministratorController.cpp">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Business/AdministratorController.h">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Business/UserController.cpp">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Business/UserController.h">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Database/TrenchCoat.cpp">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Database/TrenchCoat.h">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/DynamicVectorDir/dynamicVector.h">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Persistence/AdminFileRepository.cpp">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Persistence/AdminFileRepository.h">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Persistence/AdminHTMLRepository.cpp">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Persistence/AdminHTMLRepository.h">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Persistence/AdminRepository.cpp">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Persistence/AdminRepository.h">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Persistence/MyException.h">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Persistence/UserFileRepository.cpp">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Persistence/UserFileRepository.h">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Persistence/UserHTMLRepository.cpp">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Persistence/UserHTMLRepository.h">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Persistence/UserRepository.cpp">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Persistence/UserRepository.h">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Presentation/GUI.cpp">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Presentation/GUI.h">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Starting/appStart.cpp">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Testing/tests.cpp">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Testing/tests.h">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/a89-915-Motoc-Simona_autogen/mocs_compilation.cpp">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Qt/5.15.2/mingw81_32/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.15.2\mingw81_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,4 @@
+C:\Users\Simona\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-1\211.6693.114\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_PREFIX_PATH=C:\Qt\5.15.2\mingw81_64\lib\cmake -G "CodeBlocks - MinGW Makefiles" D:\info\a89-915-Motoc-Simona
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw
