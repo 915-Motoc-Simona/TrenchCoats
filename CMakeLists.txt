@@ -18,6 +18,10 @@ include_directories(Testing)
 include_directories(Presentation)
 
 add_executable(a89-915-Motoc-Simona
+        Presentation/AdminGUI.cpp
+        Presentation/AdminGUI.h
+        Presentation/UserGUI.cpp
+        Presentation/UserGUI.h
         Business/AdministratorController.cpp
         Business/AdministratorController.h
         Database/TrenchCoat.cpp

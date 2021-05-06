@@ -57,10 +57,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Simona\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-1\211.6693.114\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\Simona\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Simona\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-1\211.6693.114\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\Users\Simona\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -77,7 +77,7 @@ CMAKE_BINARY_DIR = D:\info\a89-915-Motoc-Simona\cmake-build-debug-mingw
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\Simona\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-1\211.6693.114\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\Users\Simona\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -88,7 +88,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\Simona\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-1\211.6693.114\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\Simona\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -397,6 +397,33 @@ Persistence/UserRepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\a89-915-Motoc-Simona.dir\build.make CMakeFiles/a89-915-Motoc-Simona.dir/Persistence/UserRepository.cpp.s
 .PHONY : Persistence/UserRepository.cpp.s
 
+Presentation/AdminGUI.obj: Presentation/AdminGUI.cpp.obj
+
+.PHONY : Presentation/AdminGUI.obj
+
+# target to build an object file
+Presentation/AdminGUI.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a89-915-Motoc-Simona.dir\build.make CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/AdminGUI.cpp.obj
+.PHONY : Presentation/AdminGUI.cpp.obj
+
+Presentation/AdminGUI.i: Presentation/AdminGUI.cpp.i
+
+.PHONY : Presentation/AdminGUI.i
+
+# target to preprocess a source file
+Presentation/AdminGUI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a89-915-Motoc-Simona.dir\build.make CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/AdminGUI.cpp.i
+.PHONY : Presentation/AdminGUI.cpp.i
+
+Presentation/AdminGUI.s: Presentation/AdminGUI.cpp.s
+
+.PHONY : Presentation/AdminGUI.s
+
+# target to generate assembly for a file
+Presentation/AdminGUI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a89-915-Motoc-Simona.dir\build.make CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/AdminGUI.cpp.s
+.PHONY : Presentation/AdminGUI.cpp.s
+
 Presentation/GUI.obj: Presentation/GUI.cpp.obj
 
 .PHONY : Presentation/GUI.obj
@@ -423,6 +450,33 @@ Presentation/GUI.s: Presentation/GUI.cpp.s
 Presentation/GUI.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\a89-915-Motoc-Simona.dir\build.make CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/GUI.cpp.s
 .PHONY : Presentation/GUI.cpp.s
+
+Presentation/UserGUI.obj: Presentation/UserGUI.cpp.obj
+
+.PHONY : Presentation/UserGUI.obj
+
+# target to build an object file
+Presentation/UserGUI.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a89-915-Motoc-Simona.dir\build.make CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/UserGUI.cpp.obj
+.PHONY : Presentation/UserGUI.cpp.obj
+
+Presentation/UserGUI.i: Presentation/UserGUI.cpp.i
+
+.PHONY : Presentation/UserGUI.i
+
+# target to preprocess a source file
+Presentation/UserGUI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a89-915-Motoc-Simona.dir\build.make CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/UserGUI.cpp.i
+.PHONY : Presentation/UserGUI.cpp.i
+
+Presentation/UserGUI.s: Presentation/UserGUI.cpp.s
+
+.PHONY : Presentation/UserGUI.s
+
+# target to generate assembly for a file
+Presentation/UserGUI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a89-915-Motoc-Simona.dir\build.make CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/UserGUI.cpp.s
+.PHONY : Presentation/UserGUI.cpp.s
 
 Starting/appStart.obj: Starting/appStart.cpp.obj
 
@@ -542,9 +596,15 @@ help:
 	@echo ... Persistence/UserRepository.obj
 	@echo ... Persistence/UserRepository.i
 	@echo ... Persistence/UserRepository.s
+	@echo ... Presentation/AdminGUI.obj
+	@echo ... Presentation/AdminGUI.i
+	@echo ... Presentation/AdminGUI.s
 	@echo ... Presentation/GUI.obj
 	@echo ... Presentation/GUI.i
 	@echo ... Presentation/GUI.s
+	@echo ... Presentation/UserGUI.obj
+	@echo ... Presentation/UserGUI.i
+	@echo ... Presentation/UserGUI.s
 	@echo ... Starting/appStart.obj
 	@echo ... Starting/appStart.i
 	@echo ... Starting/appStart.s

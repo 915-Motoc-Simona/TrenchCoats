@@ -182,10 +182,22 @@
 		<Unit filename="D:/info/a89-915-Motoc-Simona/Persistence/UserRepository.h">
 			<Option target="a89-915-Motoc-Simona"/>
 		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Presentation/AdminGUI.cpp">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Presentation/AdminGUI.h">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
 		<Unit filename="D:/info/a89-915-Motoc-Simona/Presentation/GUI.cpp">
 			<Option target="a89-915-Motoc-Simona"/>
 		</Unit>
 		<Unit filename="D:/info/a89-915-Motoc-Simona/Presentation/GUI.h">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Presentation/UserGUI.cpp">
+			<Option target="a89-915-Motoc-Simona"/>
+		</Unit>
+		<Unit filename="D:/info/a89-915-Motoc-Simona/Presentation/UserGUI.h">
 			<Option target="a89-915-Motoc-Simona"/>
 		</Unit>
 		<Unit filename="D:/info/a89-915-Motoc-Simona/Starting/appStart.cpp">

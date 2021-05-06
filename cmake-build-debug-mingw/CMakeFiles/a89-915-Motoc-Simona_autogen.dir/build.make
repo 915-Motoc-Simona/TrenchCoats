@@ -52,10 +52,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Simona\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-1\211.6693.114\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\Simona\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Simona\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-1\211.6693.114\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\Users\Simona\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -73,7 +73,7 @@ include CMakeFiles/a89-915-Motoc-Simona_autogen.dir/progress.make
 
 CMakeFiles/a89-915-Motoc-Simona_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\info\a89-915-Motoc-Simona\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target a89-915-Motoc-Simona"
-	C:\Users\Simona\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-1\211.6693.114\bin\cmake\win\bin\cmake.exe -E cmake_autogen D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/CMakeFiles/a89-915-Motoc-Simona_autogen.dir/AutogenInfo.json Debug
+	C:\Users\Simona\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.6693.114\bin\cmake\win\bin\cmake.exe -E cmake_autogen D:/info/a89-915-Motoc-Simona/cmake-build-debug-mingw/CMakeFiles/a89-915-Motoc-Simona_autogen.dir/AutogenInfo.json Debug
 
 a89-915-Motoc-Simona_autogen: CMakeFiles/a89-915-Motoc-Simona_autogen
 a89-915-Motoc-Simona_autogen: CMakeFiles/a89-915-Motoc-Simona_autogen.dir/build.make

@@ -14,6 +14,8 @@
 #include "../Business/UserController.h"
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QLabel>
+#include "AdminGUI.h"
+#include "UserGUI.h"
 
 int main(int argc, char* argv[]){
 
@@ -30,8 +32,11 @@ int main(int argc, char* argv[]){
     UserFileRepository userRepo("D:\\info\\a89-915-Motoc-Simona\\user.csv");
     UserController userController(userRepo, "1");
     AdministratorController administratorController(admFileRepo);
-
-    GUI gui{};
+    AdminGUI adm(administratorController);
+    UserGUI user(administratorController,userController);
+    GUI gui{adm, user};
+    gui.resize(400, 300);
+    gui.setWindowTitle("Trench coats");
     gui.show();
     return a.exec();
 }

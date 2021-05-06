@@ -26,10 +26,7 @@ void AdministratorController::AddCoat(const string &Size, const string &Colour, 
 }
 
 vector<TrenchCoat> AdministratorController::GetAllTrenchCoats() {
-    vector <TrenchCoat> myvector;
-    myvector=this->ADMRepository.GetRepositoryData();
-    sort(myvector.begin(), myvector.end());
-    return myvector;
+    return this->ADMRepository.GetRepositoryData();
 }
 
 vector<TrenchCoat> AdministratorController::GetSoldOutTrenchCoats() {
