@@ -51,14 +51,14 @@ void GUI::connectSignalsAndSlots() {
 }
 
 void GUI::openAdminWindow() {
-    admin.resize(400, 300);
+    admin.resize(450, 400);
     admin.setWindowTitle("Admin mode");
     this->admin.show();
 
 }
 
 void GUI::openUserWindow() {
-    user.resize(400, 300);
+    user.resize(450, 400);
     user.setWindowTitle("User mode");
     this->user.show();
 

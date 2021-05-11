@@ -172,6 +172,7 @@ CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/AdminGUI.cpp.obj: C:/Qt/5.15.2/
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/AdminGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtGui/qvector2d.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/AdminGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtGui/qwindowdefs.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/AdminGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtGui/qwindowdefs_win.h
+CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/AdminGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QComboBox
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/AdminGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QFormLayout
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/AdminGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QGridLayout
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/AdminGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QLabel
@@ -188,6 +189,7 @@ CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/AdminGUI.cpp.obj: C:/Qt/5.15.2/
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/AdminGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qabstractslider.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/AdminGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qabstractspinbox.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/AdminGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qboxlayout.h
+CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/AdminGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qcombobox.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/AdminGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qdialog.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/AdminGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qformlayout.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/AdminGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qframe.h
@@ -332,6 +334,7 @@ CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/GUI.cpp.obj: C:/Qt/5.15.2/mingw
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/GUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtGui/qvector2d.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/GUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtGui/qwindowdefs.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/GUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtGui/qwindowdefs_win.h
+CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/GUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QComboBox
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/GUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QFormLayout
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/GUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QGridLayout
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/GUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QLabel
@@ -347,6 +350,7 @@ CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/GUI.cpp.obj: C:/Qt/5.15.2/mingw
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/GUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qabstractslider.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/GUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qabstractspinbox.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/GUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qboxlayout.h
+CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/GUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qcombobox.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/GUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qformlayout.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/GUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qframe.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/GUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qgridlayout.h
@@ -492,6 +496,7 @@ CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/UserGUI.cpp.obj: C:/Qt/5.15.2/m
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/UserGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtGui/qvector2d.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/UserGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtGui/qwindowdefs.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/UserGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtGui/qwindowdefs_win.h
+CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/UserGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QComboBox
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/UserGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QFormLayout
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/UserGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QGridLayout
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/UserGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QLabel
@@ -508,6 +513,7 @@ CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/UserGUI.cpp.obj: C:/Qt/5.15.2/m
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/UserGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qabstractslider.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/UserGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qabstractspinbox.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/UserGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qboxlayout.h
+CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/UserGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qcombobox.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/UserGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qdialog.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/UserGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qformlayout.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Presentation/UserGUI.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qframe.h
@@ -661,6 +667,7 @@ CMakeFiles/a89-915-Motoc-Simona.dir/Starting/appStart.cpp.obj: C:/Qt/5.15.2/ming
 CMakeFiles/a89-915-Motoc-Simona.dir/Starting/appStart.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtGui/qwindowdefs.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Starting/appStart.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtGui/qwindowdefs_win.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Starting/appStart.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QApplication
+CMakeFiles/a89-915-Motoc-Simona.dir/Starting/appStart.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QComboBox
 CMakeFiles/a89-915-Motoc-Simona.dir/Starting/appStart.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QFormLayout
 CMakeFiles/a89-915-Motoc-Simona.dir/Starting/appStart.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QLabel
 CMakeFiles/a89-915-Motoc-Simona.dir/Starting/appStart.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/QLayout
@@ -676,6 +683,7 @@ CMakeFiles/a89-915-Motoc-Simona.dir/Starting/appStart.cpp.obj: C:/Qt/5.15.2/ming
 CMakeFiles/a89-915-Motoc-Simona.dir/Starting/appStart.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qabstractspinbox.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Starting/appStart.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qapplication.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Starting/appStart.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qboxlayout.h
+CMakeFiles/a89-915-Motoc-Simona.dir/Starting/appStart.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qcombobox.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Starting/appStart.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qdesktopwidget.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Starting/appStart.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qformlayout.h
 CMakeFiles/a89-915-Motoc-Simona.dir/Starting/appStart.cpp.obj: C:/Qt/5.15.2/mingw81_32/include/QtWidgets/qframe.h

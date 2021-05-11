@@ -14,6 +14,7 @@
 #include <QVBoxLayout>
 #include <QFormLayout>
 #include <QLabel>
+#include <QComboBox>
 
 class UserGUI: public QWidget {
 private:
@@ -21,20 +22,25 @@ private:
     UserController& USERController;
 
     QVBoxLayout* userLayout;
-    QListWidget* coatsListWidget,* basketListWidget;
+    QListWidget* coatsListWidget,* basketListWidget, *coatsBySizeListWidget;
     QGridLayout* shoppingButtonsLayout;
     QLineEdit* sizeLineEdit, * colourLineEdit, * priceLineEdit, * quantityLineEdit;
-    QPushButton* shoppingButton, * seeBasketButton,* buyButton, * nextButton, * webButton;
+    QPushButton* shoppingButton, * seeBasketButton,* buyButton, * nextButton, * webButton, *findButton;
+    QComboBox* comboOptions;
+    QString size;
+    int ok = 0;
     int counter = 0;
     void initUserGUI();
     void populateList();
     void allCoats();
+    void coatsBySize();
     void connectSignalsAndSlots();
     int getSelectedIndex();
     void seeBasket();
     void goShopping();
     void buyButtonPressed();
     void webButtonPressed();
+    void findButtonPressed();
 
 public:
     UserGUI(AdministratorController& admController, UserController& userController);

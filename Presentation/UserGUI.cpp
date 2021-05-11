@@ -26,6 +26,7 @@ void UserGUI::initUserGUI() {
 
     this->coatsListWidget = new QListWidget{};
     this->basketListWidget = new QListWidget{};
+    this->coatsBySizeListWidget = new QListWidget{};
 
     this->sizeLineEdit = new QLineEdit{};
     this->colourLineEdit = new QLineEdit{};
@@ -36,7 +37,8 @@ void UserGUI::initUserGUI() {
     this->seeBasketButton = new QPushButton{"See shopping basket"};
     this->buyButton = new QPushButton{"I want to buy it!"};
     this->webButton = new QPushButton{"See website"};
-    this->nextButton = new QPushButton{"Next..."};
+//  this->nextButton = new QPushButton{"Next..."};
+    this->findButton = new QPushButton{"Find coats"};
 
     this->shoppingButton->setFixedSize(QSize(200,80));
     this->seeBasketButton->setFixedSize(QSize(200,80));
@@ -52,16 +54,31 @@ void UserGUI::initUserGUI() {
     buttonsLayout->addWidget(this->seeBasketButton);
     userLayout->addLayout(buttonsLayout);
 
+    this->comboOptions = new QComboBox{};
+    this->comboOptions->addItem("All sizes");
+    this->comboOptions->addItem("XS");
+    this->comboOptions->addItem("S");
+    this->comboOptions->addItem("M");
+    this->comboOptions->addItem("L");
+    this->comboOptions->addItem("XL");
+
+    userLayout->addWidget(comboOptions);
+
     this->shoppingButtonsLayout = new QGridLayout{};
+    userLayout->addWidget(this->findButton);
     shoppingButtonsLayout->addWidget(this->buyButton);
     shoppingButtonsLayout->addWidget(this->webButton);
 
     userLayout->addWidget(this->coatsListWidget);
+    userLayout->addWidget(this->coatsBySizeListWidget);
     userLayout->addLayout(this->shoppingButtonsLayout);
 
     coatsListWidget->setVisible(false);
+    coatsBySizeListWidget->setVisible(false);
+    findButton->setVisible(false);
     buyButton->setVisible(false);
     webButton->setVisible(false);
+    comboOptions->setVisible(false);
 
 }
 
@@ -87,12 +104,17 @@ void UserGUI::connectSignalsAndSlots() {
     QObject::connect(this->seeBasketButton, &QPushButton::clicked, this, &UserGUI::seeBasket);
     QObject::connect(this->shoppingButton, &QPushButton::clicked, this, &UserGUI::goShopping);
     QObject::connect(buyButton, &QPushButton::clicked, this, &UserGUI::buyButtonPressed);
-    QObject::connect(webButton, &QPushButton::clicked, this,&UserGUI::webButtonPressed);
+    QObject::connect(webButton, &QPushButton::clicked, this, &UserGUI::webButtonPressed);
+    QObject::connect(findButton, &QPushButton::clicked, this,&UserGUI::findButtonPressed);
 
 }
 
 int UserGUI::getSelectedIndex() {
-    QModelIndexList  selectedIndexes = this->coatsListWidget->selectionModel()->selectedIndexes();
+    QModelIndexList  selectedIndexes;
+    if(ok==0)
+        selectedIndexes = this->coatsListWidget->selectionModel()->selectedIndexes();
+    else
+        selectedIndexes = this->coatsBySizeListWidget->selectionModel()->selectedIndexes();
     if(selectedIndexes.size()==0){
         this->sizeLineEdit->clear();
         this->colourLineEdit->clear();
@@ -108,6 +130,9 @@ void UserGUI::seeBasket() {
     coatsListWidget->setVisible(false);
     buyButton->setVisible(false);
     webButton->setVisible(false);
+    findButton->setVisible(false);
+    comboOptions->setVisible(false);
+    coatsBySizeListWidget->setVisible(false);
     seeBasketButton->setVisible(false);
     shoppingButton->setVisible(true);
 
@@ -118,8 +143,10 @@ void UserGUI::seeBasket() {
 void UserGUI::goShopping() {
     basketListWidget->setVisible(false);
     shoppingButton->setVisible(false);
+    coatsBySizeListWidget->setVisible(false);
     seeBasketButton->setVisible(true);
-
+    comboOptions->setVisible(true);
+    findButton->setVisible(true);
     coatsListWidget->setVisible(true);
     buyButton->setVisible(true);
     webButton->setVisible(true);
@@ -132,7 +159,11 @@ void UserGUI::buyButtonPressed() {
         return;
     }
 
-    TrenchCoat c = this->ADMController.GetAllTrenchCoats()[selectedIndex];
+    TrenchCoat c;
+    if(ok==0)
+        c = this->ADMController.GetAllTrenchCoats()[selectedIndex];
+    else
+        c = this->ADMController.GetAllTrenchCoatsBySize(size.toStdString())[selectedIndex];
     try {
         this->USERController.AddCoat(c);
         QMessageBox::information(this, "Ok", "Coat successfully added to your basket!");
@@ -152,10 +183,39 @@ void UserGUI::webButtonPressed() {
         return;
     }
 
-    TrenchCoat c = this->ADMController.GetAllTrenchCoats()[selectedIndex];
+    TrenchCoat c;
+    if(ok==0)
+        c = this->ADMController.GetAllTrenchCoats()[selectedIndex];
+    else
+        c = this->ADMController.GetAllTrenchCoatsBySize(size.toStdString())[selectedIndex];
 
     string browser = "start ";
     browser += c.GetPhotograph();
     system(browser.c_str());
 
+}
+
+void UserGUI::coatsBySize() {
+    this->coatsBySizeListWidget->clear();
+    vector<TrenchCoat> coats = this->ADMController.GetAllTrenchCoatsBySize(size.toStdString());
+
+    for(TrenchCoat& c: coats)
+        this->coatsBySizeListWidget->addItem(QString::fromStdString(c.GetSize()) + " | " + QString::fromStdString(c.GetColour()) + " | " + QString::fromStdString(to_string(c.GetPrice())) + "$ | " + QString::fromStdString(to_string(c.GetQuantity())) + " left");
+
+}
+
+void UserGUI::findButtonPressed() {
+    size = this->comboOptions->currentText();
+    if(size!="All sizes"){
+        ok = 1;
+        this->coatsBySize();
+        this->coatsBySizeListWidget->setVisible(true);
+        coatsListWidget->setVisible(false);
+    }
+    else{
+        ok = 0;
+        this->allCoats();
+        this->coatsBySizeListWidget->setVisible(false);
+        coatsListWidget->setVisible(true);
+    }
 }
